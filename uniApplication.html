@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>University Applicaiton</title>
+    <style>
+        h1 {
+            font-family: Seravek,serif;
+            text-align: center;
+            color: #3070b6;
+            font-size: 45px;
+        }
+
+        h4 {
+            font-family: Impact, Charcoal, serif;
+            text-align: center;
+            font-size: 23px;
+        }
+
+        .style1{
+            font-family: Palatino, sans-serif;
+            padding-left: 10%;
+            padding-right: 8%;
+            font-size: 18px;
+        }
+
+        .style2{
+            font-family: Seravek, serif;
+            text-align: center;
+            color: #3070b6;
+            font-size: 30px;
+        }
+
+        .style3{
+            font-family: Palatino, sans-serif;
+            text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+
+<body>
+<div>
+    <p><h1>First-Year Student Application</h1>
+    <h4>Welcome!</h4>
+    <p class="style1">This application is designed to be completed in one sitting. <strong>You won't pay an application fee, you won't need to write a formal essay</strong> and you'll receive automatic consideration for scholarships when you apply today.<br>
+        <strong>Plus, test-score submission is optional.</strong><br><br>
+        Once you begin your application, we'll help you set up a custom Password.</p>
+</div>
+
+<div>
+    <p class="style2"><strong>Personal Information</strong>
+    <form class="style3" action="uniAppliPage2.html" method="post" target="_self" autocomplete="off" validate>
+        <label>
+            First Name:
+        </label>
+        <label>
+            <input type="text">
+        </label>
+
+        <br><br>
+
+        <label>
+            Last Name:
+        </label>
+        <label>
+            <input type="text">
+        </label>
+
+        <br><br>
+
+        <label>
+            Legal Sex:
+        </label>
+
+    <label>
+        <input type="radio" name="r1">
+    </label>
+    <label>
+        Male
+    </label>
+
+    <label>
+        <input type="radio" name="r1">
+    </label>
+    <label>
+        Female
+    </label>
+
+    <br><br>
+
+    <label>
+        Gender:
+    </label>
+
+    <label>
+        <input type="checkbox">
+        Male
+        <input type="checkbox">
+        Female
+        <input type="checkbox">
+        Non-Binary
+        <input type="checkbox">
+        Refuse to self-identify
+    </label>
+
+    <br><br>
+
+    <label>
+        If you would like the opportunity, we invite you to elaborate on your gender identity: <br><br>
+        <textarea style="scale: 150%"></textarea>
+    </label>
+
+    <br><br>
+
+        <label>
+            Birth Date:
+        </label>
+    <label>
+        <input type="date" min="1940-01-01" max="2008-01-01">
+    </label>
+
+    <br><br>
+
+    <label>
+        Home Phone:
+    </label>
+    <label>
+        <input type="tel">
+    </label>
+
+    <br><br>
+
+    <label>
+        Cell Phone:
+    </label>
+    <label>
+        <input type="tel">
+    </label>
+
+    <br><br>
+
+    <label>
+        Permanent Home Address: <br><br>
+        <textarea style="scale: 150%"></textarea>
+    </label>
+
+    <br><br>
+
+    <label>
+        Cover Letter:
+    </label>
+    <input type="file">
+
+    <br><br>
+
+    <label>
+        Email:
+    </label>
+    <label>
+        <input type="email">
+    </label>
+
+    <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset">
+
+    </form>
+</div>
+
+</body>
+</html>
